@@ -17,9 +17,8 @@ def calculate_add(a: float, b: float):
     result = add_func(a, b)
     return {"operation": "addition", "a": a, "b": b, "result": result}
 
-def add_func(a, b):
-    return a + b
-
-
 def sub_func(a, b):
     return a - b
+
+def mut_func(a,b)-> float:
+    return a*b
